@@ -1,0 +1,245 @@
+body
+{
+    font-family: 'Avenir Next';
+    background-color: white;
+}
+
+.modal-backdrop.in
+{
+    opacity: 0.2;
+}
+
+.photo img
+{
+    width: 100px;
+}
+
+.board
+{
+    display: grid;
+    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    grid-gap: 30px;
+    list-style-type: none;
+}
+
+.photo img
+{
+    width: 100%;
+}
+
+
+.grid
+{
+    list-style-type: none;
+}
+
+.grid li img
+{
+    max-width: 200px;
+}
+
+header
+{
+    height: 100vh;
+    background: url("../banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+}
+
+.navbar-default
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text
+{
+    color: white;
+}
+
+.navbar-brand img
+{
+    width: 60px;
+}
+
+header
+{
+    display: grid;
+    grid-template-rows: 0.2fr 0.6fr 0.2fr;
+}
+
+.navbar-right
+{
+    margin-top: 10px;
+}
+
+.info
+{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 100px;
+}
+
+.info h3
+{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.info p
+{
+    font-size: 15px;
+    font-family: 'Avenir';
+    font-weight: lighter;
+    max-width: 500px;
+}
+
+header form
+{
+    display: block;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+.form-control
+{
+    background-color: transparent;
+    border: none;
+    width: 100%!important;
+    padding-top: 17px;
+}
+
+header .btn-outline-success
+{
+    border: 1px solid white;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.form-control::placeholder
+{
+    color: white!important;
+}
+
+
+.imglist img
+{
+    max-width: 100%;
+}
+
+.imglist
+{
+    display: grid;
+    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    grid-gap: 10px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 375px){
+    header form
+    {
+        width: 330px;
+    }
+
+    .imglist
+    {
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+}
+
+.form-create
+{
+    text-align: center;
+}
+
+.create input::placeholder
+{
+    color: grey!important;
+}
+
+.create .form-group label
+{
+    font-family: 'Avenir Next';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.create button
+{
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: grey;
+    margin: auto;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.user-name
+{
+    text-align: center;
+    font-family: 'Avenir Next';
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.follow
+{
+    text-align: center;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: auto;
+    padding: 4px 8px;
+    display: block;
+    width: 150px;
+    font-size: 14px;
+}
+
+.recherche
+{
+    list-style-type: none;
+}
+
+.recherche li
+{
+    color: grey!important;
+    text-align: center;
+}
+
+.recherche li a
+{
+    color: grey!important;
+}
+
+.titre
+{
+    padding-left: 60px;
+}
+
+.recherche
+{
+    margin: 50px 0;
+}
+
+.container:after, .container:before
+{
+    display: none;
+}
